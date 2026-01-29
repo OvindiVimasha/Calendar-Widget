@@ -27,3 +27,6 @@ A charming, lightweight desktop calendar widget with a beautiful pixel-art aesth
 - [HTML5 / CSS3](https://developer.mozilla.org/en-US/docs/Web/HTML) - Structure and Styling.
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Application Logic.
 
+
+<img width="1175" height="589" alt="image" src="https://github.com/user-attachments/assets/ba722355-d582-4b92-a31c-31d53c162235" />
+
