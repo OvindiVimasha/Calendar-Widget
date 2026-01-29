@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: "Pixeboy";
+  src: url("assets/Pixeboy.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  -webkit-app-region: drag; /* Make the entire window draggable */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 13.375rem;
+  padding: 1rem 1.0625rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background-image: url("assets/outerframe.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.95;
+}
+
+button,
+input,
+textarea,
+select {
+  -webkit-app-region: no-drag; /* Exclude interactive elements from being draggable */
+  cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 0.625rem;
+  width:157px;
+
+  border-radius: 6.25rem;
+  border: 1px solid #d11a88;
+  background: linear-gradient(135deg, #ff69b4 0%, #ffc0cb 100%);
+
+  color: var(--white, #FFF);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  /*title text styles*/
+  font-family: "Pixelify Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  font-style: normal;
+}
+
+day{
+  color:#FFF;
+  text-align: center;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--mid-purple, #b58cd9);
+  font-family: "Pixeboy";
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: 0.45rem;
+}
+
+#day{
+  color: #FFF;
+  text-align: center;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--mid-purple, #b58cd9);
+  font-family: "Pixeboy";
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.45rem;
+  margin: 0;
+}
+
+month{
+  color:#FFF;
+  text-align: center;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--mid-purple, #b58cd9);
+  font-family: "Pixeboy";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: 0.3rem;
+}
+
+#month{
+  color: #FFF;
+  text-align: center;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--mid-purple, #b58cd9);
+  font-family: "Pixeboy";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.3rem;
+  margin: 0;
+  margin-top: -0.5rem;
+}
+
+#calendar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:11.25rem;
+  height:10.0625rem;
+  background-image: url("assets/innerframe.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center;
+}
