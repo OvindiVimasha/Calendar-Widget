@@ -1,4 +1,4 @@
-# 🗓️ Pixel Calendar Widget
+# 🗓️  Calendar Widget
 
 A charming, lightweight desktop calendar widget with a beautiful pixel-art aesthetic. Built using **Electron**, this widget sits elegantly on your desktop, showing you the current day and month at a glance.
 
